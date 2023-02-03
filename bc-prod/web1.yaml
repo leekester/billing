@@ -5,7 +5,7 @@ metadata:
   namespace: bc-prod
 spec:
   containers:
-  - image: httpd
+  - image: memcached
     name: web1
     resources:
       requests:
