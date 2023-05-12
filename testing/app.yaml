@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: matt-test
+  name: matt-test
+spec:
+  containers:
+  - image: acrdevakshislmgtuksouth001abfimd.azurecr.io/testimages/nginx:latest
+    name: matt-test
