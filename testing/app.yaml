@@ -5,7 +5,8 @@ metadata:
   namespace: testing-ns
 spec:
   containers:
-  - image: acrdevakshislmgtuksouth001abfimd.azurecr.io/testimages/nginx:latest
+#  - image: acrdevakshislmgtuksouth001abfimd.azurecr.io/testimages/nginx:latest
+  - image: memcached
     name: matt-test
     resources:
       requests:
