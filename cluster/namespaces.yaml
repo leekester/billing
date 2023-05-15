@@ -13,5 +13,7 @@ metadata:
   namespace: application
 spec:
   hard:
+    requests.cpu: 1000m
+    requests.memory: 2Gi
     limits.cpu: 2000m
     limits.memory: 4Gi
