@@ -6,7 +6,7 @@ metadata:
     name: application
     istio.io/rev: asm-1-17
     costCentre: Claims
-    costOwner: bob@bobmail.com
+    costOwner: bob--bobmail.com
 ---
 apiVersion: v1
 kind: ResourceQuota
