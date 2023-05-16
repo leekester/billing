@@ -5,7 +5,7 @@ metadata:
   labels:
     name: application
     istio.io/rev: asm-1-17
-    costcentre: Claims
+    costcentre: claims
     costowner: bob_maildomain.com
 ---
 apiVersion: v1
